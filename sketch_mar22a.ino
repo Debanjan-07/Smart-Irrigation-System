@@ -44,7 +44,7 @@ void setup() {
 
 // Function to send soil moisture warning
 void sendSoilMoistureNotification() {
-  Blynk.logEvent("moisture_detection"," WARNING!☠ Soil Moisture is too Low.The pump is now ON."); // Send notification to Blynk
+  Blynk.logEvent("ecoirrigate"," WARNING!☠ Soil Moisture is too Low.The pump is now ON."); // Send notification to Blynk
   
 }
 
